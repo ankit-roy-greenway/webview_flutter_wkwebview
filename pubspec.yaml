@@ -1,0 +1,29 @@
+name: webview_flutter_wkwebview
+description: A Flutter plugin that provides a WebView widget based on Apple's WKWebView control.
+version: 2.5.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.22.0 <2.0.0"
+
+flutter:
+  plugin:
+    implements: webview_flutter
+    platforms:
+      ios:
+        pluginClass: FLTWebViewFlutterPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter_platform_interface:
+    git:
+      url: https://github.com/ankit-roy-greenway/webview_flutter_platform_interface.git
+      ref: main
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.2

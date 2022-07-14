@@ -1,0 +1,14 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=D:\Development\sdk\Flutter\flutter_1.22.6-stable
+FLUTTER_APPLICATION_PATH=D:\Development\flutter\indiap2p_agent_mobile\packages\webview_flutter\webview_flutter_wkwebview
+FLUTTER_TARGET=lib\main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build\ios
+OTHER_LDFLAGS=$(inherited) -framework Flutter
+FLUTTER_FRAMEWORK_DIR=D:\Development\sdk\Flutter\flutter_1.22.6-stable\bin\cache\artifacts\engine\ios
+FLUTTER_BUILD_NAME=2.5.0
+FLUTTER_BUILD_NUMBER=2.5.0
+DART_OBFUSCATION=false
+TRACK_WIDGET_CREATION=false
+TREE_SHAKE_ICONS=false
+PACKAGE_CONFIG=.packages
